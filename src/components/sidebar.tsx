@@ -9,7 +9,7 @@ import { Button } from "@radix-ui/themes";
 export default function Sidebar() {
   const [selected, setSelected] = useState(6);
   return (
-    <aside className="flex flex-col items-center w-[230px]  py-[10px] h-screen sticky top-0 bg-[#353C53]">
+    <aside className="flex flex-col items-center w-[230px]  py-[10px] h-screen sticky top-0 bg-[#1E2640]">
       <div className="flex w-[90%] p-3 justify-between">
         <div className="relative w-[45px] h-[39px]">
           <Image
