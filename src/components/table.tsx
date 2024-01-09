@@ -25,7 +25,7 @@ export default function TableComp() {
               </p>
             </TableHead>
             <TableHead className="text-center">Order amount</TableHead>
-            <TableHead className="text-right">
+            <TableHead className="text-center">
               <p>
                 Transaction fees
                 <IoIosInformationCircleOutline className="inline-block ml-1" />
@@ -41,7 +41,7 @@ export default function TableComp() {
               </TableCell>
               <TableCell className="text-center">7 July, 2023</TableCell>
               <TableCell className="text-center">₹1,278.23</TableCell>
-              <TableCell className="text-right">₹22</TableCell>
+              <TableCell className="text-center">₹22</TableCell>
             </TableRow>
           ))}
         </TableBody>
