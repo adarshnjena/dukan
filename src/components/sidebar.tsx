@@ -23,6 +23,7 @@ export default function Sidebar() {
       </div>
       {data.map((item) => (
         <div
+          key={item.id}
           onClick={() => setSelected(item.id)}
           className={`flex w-[90%]  text-white p-3 px-[10px] text-[14px] rounded-[4px] cursor-pointer ${
             selected === item.id ? "bg-white/10 " : ""

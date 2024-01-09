@@ -35,7 +35,7 @@ export default function TableComp() {
         </TableHeader>
         <TableBody className="bg-white">
           {[...Array(10)].map((_, i) => (
-            <TableRow>
+            <TableRow key={i}>
               <TableCell className="font-medium text-[#146EB4]">
                 #281209{" "}
               </TableCell>
