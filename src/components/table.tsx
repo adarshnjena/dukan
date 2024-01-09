@@ -24,8 +24,8 @@ export default function TableComp() {
                 <FaCaretDown className="inline-block ml-1" />
               </p>
             </TableHead>
-            <TableHead className="text-center">Order amount</TableHead>
-            <TableHead className="text-center">
+            <TableHead className="text-right">Order amount</TableHead>
+            <TableHead className="text-right">
               <p>
                 Transaction fees
                 <IoIosInformationCircleOutline className="inline-block ml-1" />
@@ -40,8 +40,8 @@ export default function TableComp() {
                 #281209{" "}
               </TableCell>
               <TableCell className="text-center">7 July, 2023</TableCell>
-              <TableCell className="text-center">₹1,278.23</TableCell>
-              <TableCell className="text-center">₹22</TableCell>
+              <TableCell className="text-right">₹1,278.23</TableCell>
+              <TableCell className="text-right">₹22</TableCell>
             </TableRow>
           ))}
         </TableBody>
