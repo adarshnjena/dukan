@@ -9,7 +9,7 @@ export default function Home() {
     <main className="flex min-h-screen bg-[#FAFAFA]">
       <Sidebar />
       <div className="w-full">
-        <div className=" h-[60px] w-full bg-white flex items-center justify-between p-2">
+        <div className=" h-[60px] w-full bg-white flex items-center justify-between p-[30px] border border-x-0">
           <div className="flex text-center justify-center">
             <p className="text-[#1A181E] font-normal text-[15px] items-start">
               Payments
@@ -129,8 +129,8 @@ export default function Home() {
             </p>
             <DropdownMenuDemo />
           </div>
-          <div className="flex items-center justify-between  w-full mb-6  rounded-[4px]">
-            <div className="bg-white w-[49%] py-[20px] px-8">
+          <div className="flex items-center justify-between  w-full mb-6">
+            <div className="bg-white w-[49%] py-[20px] px-8 shadow-sm rounded-[6px]">
               <p className="text-[#1A181E] font-normal text-[16px] items-start">
                 Online orders
               </p>
@@ -138,7 +138,7 @@ export default function Home() {
                 231
               </p>
             </div>
-            <div className="bg-white w-[49%] py-[20px] px-8">
+            <div className="bg-white w-[49%] py-[20px] px-8 shadow-sm rounded-[6px]">
               <p className="text-[#1A181E] font-normal text-[16px] items-start">
                 Amount received{" "}
               </p>
@@ -153,7 +153,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="pb-10 w-full bg-white">
+          <div className="pb-10 w-full bg-white shadow-sm rounded-[6px]">
             <div className="flex justify-between items-center my-4 mx-2">
               <div>
                 <form>
