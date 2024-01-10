@@ -241,7 +241,7 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            <div className="m-2">
+            <div className="m-2 mb-0">
               <TableComp />
             </div>
           </div>

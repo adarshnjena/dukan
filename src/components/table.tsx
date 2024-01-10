@@ -34,7 +34,7 @@ export default function TableComp() {
           </TableRow>
         </TableHeader>
         <TableBody className="bg-white">
-          {[...Array(10)].map((_, i) => (
+          {[...Array(20)].map((_, i) => (
             <TableRow key={i}>
               <TableCell className="font-medium text-[#146EB4]">
                 #281209{" "}
@@ -46,6 +46,7 @@ export default function TableComp() {
           ))}
         </TableBody>
       </Table>
+      <hr />
       <PaginationComp />
     </>
   );

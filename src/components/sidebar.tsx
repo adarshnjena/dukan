@@ -25,7 +25,7 @@ export default function Sidebar() {
         <div
           key={item.id}
           onClick={() => setSelected(item.id)}
-          className={`flex w-[90%]  text-white p-3 px-[10px] text-[14px] rounded-[4px] cursor-pointer ${
+          className={`flex w-[90%]  text-white p-3 px-[20px] text-[14px] rounded-[4px] cursor-pointer ${
             selected === item.id ? "bg-white/10 " : ""
           } `}
         >
@@ -57,7 +57,7 @@ export default function Sidebar() {
             />
           </svg>
         </div>
-        <div className="text-white flex w-[70%] m-0 justify-between items-center">
+        <div className="text-white flex w-[70%] justify-between items-center">
           <div className="flex flex-col items-start">
             <p className="text-[13px] font-normal opacity-[0.8]">
               Available credits{" "}
